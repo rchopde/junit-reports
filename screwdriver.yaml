@@ -1,3 +1,6 @@
+shared:
+  image: golang:latest
+
 jobs:
     main:
         requires: [~pr, ~commit]
