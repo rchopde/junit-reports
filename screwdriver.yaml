@@ -1,5 +1,5 @@
 shared:
-  image: centos8:latest
+  image: centos:latest
 
 jobs:
     main:
