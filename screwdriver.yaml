@@ -1,0 +1,7 @@
+jobs:
+    main:
+        requires: [~pr, ~commit]
+        steps:
+          - build: echo "Gather test results"
+          - teardown-junit: sd-cmd exec screwdriver-cd/junit-tests@latest ${SD_SOURCE_DIR}/surefire-reports true
+          
