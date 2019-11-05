@@ -1,5 +1,5 @@
 shared:
-  image: golang:latest
+  image: centos8:latest
 
 jobs:
     main:
